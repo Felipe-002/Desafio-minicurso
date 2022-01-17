@@ -2,11 +2,11 @@ const botao = document.querySelector('button');
 
 traduzirCondicao = (data) => {
     if(data.status == 'unknown'){
-        return 'Não sabemos';
+        return 'NÃ£o sabemos';
     }else if(data.status == 'Alive'){
         return 'Sim';
     }else {
-        return 'Não. Está morto';
+        return 'NÃ£o. EstÃ¡ morto';
     }
 }
 
@@ -36,3 +36,5 @@ pegarPersonagem = () => {
     });
 }
 }
+
+botao.onclick = pegarPersonagem;
