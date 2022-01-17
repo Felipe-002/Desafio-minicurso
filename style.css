@@ -39,3 +39,15 @@ main > section button {
     padding: 9px 23px}
     text-transform: uppercase;
 }
+
+#detalhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+}
+
+#detalhes-container > li {
+align-itens: daseline
+display: flex
+#detalhes-containers > li p
+color: green
